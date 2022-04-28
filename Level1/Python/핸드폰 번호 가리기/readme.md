@@ -24,4 +24,4 @@ def solution(phone_number):
 
 ### Explanation
 - 음수 인덱스를 지정해 뒤에서 4번쩨 요소를 제외한 나머지를 *로 변환
-![slice](https://github.com/britko/programmers-coding-test/blob/master/images)
+![slice](https://github.com/britko/programmers-coding-test/blob/master/Level1/Python/%ED%95%B8%EB%93%9C%ED%8F%B0%20%EB%B2%88%ED%98%B8%20%EA%B0%80%EB%A6%AC%EA%B8%B0/images/1.png)

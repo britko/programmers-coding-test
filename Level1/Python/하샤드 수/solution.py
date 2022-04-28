@@ -1,5 +1,3 @@
-n, m = map(int, input().strip().split(' '))
-
-answer = ('*'*n +'\n')*m
-
-print(answer)
+def solution(x):
+    
+    return x % sum([int(i) for i in str(x)]) == 0

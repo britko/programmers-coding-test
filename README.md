@@ -2,3 +2,5 @@
 
 ## Languages
 - Python
+- JavaScript
+- MySQL

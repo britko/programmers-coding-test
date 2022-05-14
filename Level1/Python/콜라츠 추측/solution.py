@@ -1,9 +1,23 @@
-def solution(strings, n):
+def solution(num):
+    answer = 0
     
-    dict_strings = {string : i for i, string in enumerate(strings)}
-
-    dict_strings2 = sorted(str(dict_strings.items())[n])
+    if num == 1:
+        return 0
     
-    return dict_strings2
-
-print(solution(["sun", "bed", "car"], 1))
+    while True:
+        if num % 2 == 0:
+            num = num / 2
+            answer += 1
+            if num == 1:
+                break
+        else:
+            num = num * 3 + 1
+            answer += 1
+            if num == 1:
+                break
+        
+        if answer > 500:
+            answer = -1
+            break
+    
+    return answer

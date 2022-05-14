@@ -22,6 +22,6 @@ def solution(s):
     return s.lower().count('p') == s.lower().count('y')
 ```
 
-## 코드 설명
+### 코드 설명
 - `String.lower()`: String을 모두 소문자로 변환
 - `String.count(x)`: String에서 x의 개수를 반환

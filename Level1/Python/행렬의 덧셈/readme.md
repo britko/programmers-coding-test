@@ -21,7 +21,7 @@ def solution(arr1, arr2):
     return (np.array(arr1) + np.array(arr2)).tolist()
 ```
 
-### Explanation
+### 코드 설명
 - `numpy`: 행렬이나 일반적으로 대규모 다차원 배열을 쉽게 처리 할 수 있도록 지원하는 파이썬의 라이브러리
 - `np.array(리스트)`: array 함수에 리스트를 넣으면 ndarray 클래스 객체로 변환해 준다.
 - `tolist()`: ndarray 객체를 리스트로 변환

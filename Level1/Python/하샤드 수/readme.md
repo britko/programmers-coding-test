@@ -21,7 +21,7 @@ def solution(x):
     return x % sum([int(i) for i in str(x)]) == 0
 ```
 
-### Explanation
+### 코드 설명
 1. List Comprehesions(리스트 표현식)으로 각 자릿수를 구한다.
 2. `sum` 함수로 자릿수를 모두 더한다.
 3. 양의 정수 x가 자릿수의 합으로 나눠지면 True, 아니면 False를 반환한다.

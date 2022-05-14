@@ -21,7 +21,7 @@ def solution(x, n):
     return [ x*i for i in range(1, n+1) ]
 ```
 
-### Explanation
+### 코드 설명
 - `[실행문 for i in 리스트 or 튜플 if 조건문]`: List Comprehesions(리스트 표현식)
   - ex1) `[ num * 3 for num in range(1,6) ]` > `[3, 6, 9, 12, 15]`
   - ex2) `[ num * 3 for num in range(1,6) if num % 2 == 1 ]` > `[3, 9, 15]`

@@ -1,4 +1,5 @@
 def solution(n):
-    x = n ** 0.5
+    list_n = list(str(n))
+    list_n.sort(reverse=True)
     
-    return (x + 1) ** 2 if x % 1 == 0 else -1
+    return int(''.join(list_n))
